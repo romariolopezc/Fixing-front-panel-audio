@@ -9,8 +9,10 @@ chmod +x Fixing-front-panel-audio.sh
 ./Fixing-front-panel-audio.sh
 ```
 
-Depending if you have a graphic card, edit the scrip to disable auto-mute. 
+Depending if you have a graphic card, edit the scrip to disable auto-mute.
+
 With graphic card `amixer -c 1`
-Witout graphic card `amixer -c 0`
+
+Without graphic card `amixer -c 0`
 
 Tested with ArchLinux.
