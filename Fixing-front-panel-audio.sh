@@ -26,4 +26,4 @@ sudo sed -i "$fL,$fLp s/volume = zero/volume = off/" $Burl
 
 amixer -c 1 set 'Auto-Mute Mode' Disabled
 sudo alsactl store
-echo -e "\033[0;31mNow you can reboot your pc to see effect"
+echo -e "\033[0;31mNow you can reboot your pc to see the effect"
